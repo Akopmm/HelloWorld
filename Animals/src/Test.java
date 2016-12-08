@@ -1,10 +1,8 @@
 
 public class Test {
-public static void main(){
+public static void main(String[] args){
 	Animal A=new Animal();
 	Wolf B=new Wolf();
-	A.getName();
-	B.getName();
 	System.out.println(A.getName());
 	System.out.println(B.getName());
 }
