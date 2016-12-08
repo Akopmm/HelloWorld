@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 private int size=0;
 private String name="Animal";
 public String getName(){
