@@ -13,5 +13,14 @@ public static void main(String[] args){
 	for (String s: Str){
 		System.out.print(s+" ");
 	}
+	System.out.print("\n");
+	ArrayList<Object> ob= new ArrayList<Object>();
+	ob.add(B);
+	if (ob.get(0) instanceof Wolf){
+		Wolf c=(Wolf) ob.get(0);
+		System.out.println(c.getName());
+	}
+	Dog d = new Dog();
+	d.beFriendly();
 }
 }
