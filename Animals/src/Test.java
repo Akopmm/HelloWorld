@@ -18,9 +18,12 @@ public static void main(String[] args){
 	ob.add(B);
 	if (ob.get(0) instanceof Wolf){
 		Wolf c=(Wolf) ob.get(0);
-		System.out.println(c.getName());
+		System.out.println(c.getSize());
 	}
 	Dog d = new Dog();
 	d.beFriendly();
-}
+	float f = 0xff;
+	float z = 0xc0;
+	System.out.println(Wolf.min(1,2));
+	}	
 }
