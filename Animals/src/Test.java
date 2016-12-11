@@ -22,8 +22,12 @@ public static void main(String[] args){
 	}
 	Dog d = new Dog();
 	d.beFriendly();
-	float f = 0xff;
-	float z = 0xc0;
 	System.out.println(Wolf.min(1,2));
+		
+	Test_one_class M= new Test_one_class();
+	Test_one_class N= new Test_one_class();
+	String a="231";
+	int l=Integer.parseInt(a);
+	System.out.println(l+2);
 	}	
 }
